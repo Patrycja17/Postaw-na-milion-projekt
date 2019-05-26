@@ -86,14 +86,13 @@ komentarze_dobra_odp2 = ['Jesteśmy już w drugim etapie.\n',
            'Proszę się nie stresować.\n'
            ]
 
-komentarze_zla_odp2 = ["Żeganam.\n",
+komentarze_zla_odp2 = ["Żegnam.\n",
             "I pieniążki przepadły.\n"
             ]
 
 
-key = list(zip(Pytania_3odp, Odpowiedzi_3odp)) #tak jakby scala pytania z odpowiedziami
-
-s = sample(key, 3) # sprawia, że z listy jest losowanych 8 pytań
+key = list(zip(Pytania_3odp, Odpowiedzi_3odp)) 
+s = sample(key, 3) 
 
 for i in s:
     print(i[0])
@@ -110,3 +109,10 @@ for i in s:
         print('Błędna odpowiedź.\n')
         wylos_kom_zla_odp2 = random.choice(komentarze_zla_odp2)
         print(wylos_kom_zla_odp2)
+
+Pytania_2odp = ['Jaka grecka litera widnieje w logo Wikipedii\n a. omega    |     b. alfa\n c.     |     d. ',
+             'Drzwi, których skrzydło przy otwieraniu obraca się zgodnie z ruchem wskazówek zegara to:\n a. drzwi prawe     |     b. drzwi lewe\n c.      |     d. ',
+             'Aby uwolnić się z Matrixa Neo wybrał pigułkę w kolorze:\n a. niebieskim     |     b. czerwonym\n c.      |     d. ',
+             'Który z tych aktorów "zginął" na planie więcej razy?\n a. Mel Gibson     |     b. Robert De Niro\n c.      |     d. ',
+             ]
+
