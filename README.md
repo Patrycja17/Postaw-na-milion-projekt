@@ -35,3 +35,19 @@ komentarze_dobra_odp = ['Dobra robota.\n',
 komentarze_zla_odp = ["No niestety.\n",
             "Następnym razem będzie lepiej.\n",
             "Proszę się nie martwić.\n"]
+
+key = list(zip(Pytania_4odp, Odpowiedzi_4odp)) 
+
+s = sample(key, 4) 
+
+for i in s:
+    print(i[0])
+    odpowiedz_gracza = input('Wpisz literę odpowiedzi:\n')
+    if odpowiedz_gracza.lower() == i[1].lower():
+        print('Prawidłowa odpowiedź.\n')
+        wylos_kom_dobra_odp = random.choice(komentarze_dobra_odp)
+        print(wylos_kom_dobra_odp)
+    else:
+        print('Błędna odpowiedź.\n')
+        wylos_kom_zla_odp = random.choice(komentarze_zla_odp)
+        print(wylos_kom_zla_odp)
