@@ -16,3 +16,22 @@ Pytania_4odp = ['Czarny charakter w "Królu Lwie" Disneya miał na imię:\n a. R
              'Skąd jest najbliżej do Gdańska w linii prostej?\n a. z Warszawy     |     b. ze Szczecina\n c. z Poznania     |     d. z Wrocławia ',
              'Czego było więcej?\n a. Dalmatyńczyków     |     b. Prac Heraklesa\n c. Lat samotności (u Marqueza)     |     d. Upadków Bunga (u Witkacego) ',
              ]
+Odpowiedzi_4odp = ['b',
+           'a',
+           'a',
+           'd',
+           'c',
+           'b',
+           'c',
+           'd',
+           ]
+
+
+komentarze_dobra_odp = ['Dobra robota.\n',
+           'Idziemy do przodu.\n',
+           'Świetnie ci idzie.\n'
+           ]
+
+komentarze_zla_odp = ["No niestety.\n",
+            "Następnym razem będzie lepiej.\n",
+            "Proszę się nie martwić.\n"]
